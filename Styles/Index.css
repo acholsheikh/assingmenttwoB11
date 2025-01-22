@@ -1,0 +1,497 @@
+Share
+
+
+You said:
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+/* .text-center{
+    text-align: center;
+} */
+.text-gray-1{
+    color: #c2a26c;
+}
+.text-gray-2{
+    color: #01ACFD;
+}
+.text-gray-3{
+    color: #05D4DF;
+}
+.text-gray-4{
+    color: #5D58EF;
+}
+.text-gray-5{
+    color: #808080;
+}
+.text-gray-6{
+    color: #FFFFFF;
+}
+
+.bg-light1{
+    background-color: hsl(0, 0%, 97%);
+}
+.bg-light2{
+    background-color: #DEF5FF;
+}
+.bg-light3{
+    background-color: #FFF4DC;
+}
+.bg-light4{
+    background-color: #F2E8FF;
+}
+.bg-light5{
+    background-color: rgb(77, 137, 169);
+}
+
+
+
+
+
+.brand{
+    margin-left: 70px; 
+}
+
+
+/* navbar related styles */
+.navbar, .brand{
+     justify-content: space-between;
+     padding-top: 30px;  
+}
+.navbar, .banner, .skills, .skills15{
+    max-width: 1160px;
+    max-height: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    margin-left: 32px;
+    font-weight: 500;
+    font-size: 1.25rem;
+} 
+
+.btn-primary{
+    margin-left: 170px; 
+    
+} 
+
+.btn{
+    background-color: #FEA301;
+    border-radius: 12px;
+    padding: 15px 60.5px;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+.scl{
+    font-weight: 700;
+    font-size: 1.875rem;
+    /* color: #111111 */
+    margin-left: 11px;
+    margin-bottom: 15px;
+    margin-top: 17px;
+    
+}
+
+/* banner related styles */
+.banner{
+  gap: 50px;
+}
+
+.banner-title{
+    margin-top: -18px;
+}
+
+.banner-content{
+    max-width: 640px;
+    /* margin: 0 auto; */
+    
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.btn-1{
+    background-color: #111111;
+    border-radius: 12px;
+    padding: 15px 60.5px;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 1);
+    border: none;;
+    
+}
+.icon{
+    width: 5px;
+    height: 5px;
+}
+/* main related styles */
+/* .image{
+    background-image: url('images/assets/bg.png');
+} */
+
+/* skills section styles*/
+
+
+.skills-container{
+    display: flex;
+    gap: 28.29px;
+}
+
+.skill{
+    height: 400px;
+    padding: 33px;
+    border-radius: 18.86px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.section-title{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    font-weight: 700;
+    font-size: 2.875rem;
+    color: rgba(0, 0, 0, 1);
+}
+
+.skill-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.skill-description{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.image1{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+/* stories related styles */
+.stories0{
+    display: flex;
+    gap: 30px;
+}
+.stories20{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.stories10{
+  height: 630px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 50px 0.94px #FFFFFF;
+}
+
+.stories4{
+    text-align: center;
+    height: 301px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    gap: 19px;
+    
+   
+}
+.section-title1{
+    font-weight: 700;
+    font-size: 2.875rem;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.btn-primary1{
+    border-radius: 47px;
+    background-color: #01ACFD ;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 14px;
+    border: none;
+    color: #FFFFFF;
+    
+}
+.btn-primary2{
+    margin-top: -25px;
+    margin-right: 50px;
+}
+.btn-primary3{
+    margin-top: -25px;
+    margin-left: 20px;
+}
+
+.stories-title{
+    font-weight: 700;
+    font-size: 2.50rem;
+}
+
+/* footer related styles */
+.skills15, .about{
+    max-width: 1439px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.skills-container1{
+    display: flex;
+    justify-content: space-around;
+    padding: 103px 228px 194px 140px;
+    text-align: center;
+}
+  .ft-1{
+     max-width: 399px; 
+}
+
+.image11{
+    position: relative;
+    padding-top: 30px;
+}
+
+.list-item{
+    list-style: none;
+}
+    
+
+.ft-2{
+    display: flex; 
+   
+}
+
+.titleA{
+    font-size: 2.625rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.at{
+    font-size: 1.50rem;
+    font-weight: 700;
+   
+}
+
+.image12{
+    width: 82px;
+    height: 81px;
+    color: #FFFFFF;
+   
+}    /* Global Media Queries */
+@media (max-width: 1200px) {
+  .navbar, .banner, .skills, .skills15 {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .nav-item {
+    margin-left: 16px;
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 12px 40px;
+    font-size: 1rem;
+  }
+
+  .banner-title {
+    font-size: 2.5rem;
+  }
+
+  .btn-1 {
+    padding: 12px 40px;
+    font-size: 1rem;
+  }
+
+  .skill {
+    height: auto;
+    padding: 20px;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+  }
+
+  .skill-title {
+    font-size: 1.25rem;
+  }
+
+  .skill-description {
+    padding: 10px;
+  }
+
+  .stories10 {
+    height: auto;
+  }
+
+  .stories-title {
+    font-size: 2rem;
+  }
+
+  .stories4 {
+    height: auto;
+    gap: 10px;
+  }
+
+  .section-title1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .banner-content {
+    text-align: center;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .stories0 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .skills-container1 {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .ft-1, .ft-2 {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .btn-primary {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .btn-primary1 {
+    padding: 12px;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-item {
+    margin-left: 8px;
+    font-size: 0.875rem;
+  }
+
+  .btn {
+    padding: 10px 30px;
+    font-size: 0.875rem;
+  }
+
+  .banner-title {
+    font-size: 2rem;
+  }
+
+  .btn-1 {
+    padding: 10px 30px;
+    font-size: 0.875rem;
+  }
+
+  .skill {
+    height: auto;
+    padding: 15px;
+  }
+
+  .skill-title {
+    font-size: 1rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .stories4, .stories10 {
+    text-align: center;
+    gap: 10px;
+  }
+
+  .titleA {
+    font-size: 2rem;
+  }
+
+  .at {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin-left: 0;
+    margin-top: 10px;
+    font-size: 0.75rem;
+  }
+
+  .btn {
+    padding: 8px 20px;
+    font-size: 0.75rem;
+  }
+
+  .banner-title {
+    font-size: 1.75rem;
+  }
+
+  .btn-1 {
+    padding: 8px 20px;
+    font-size: 0.75rem;
+  }
+
+  .skills-container, .stories0 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .stories4 {
+    text-align: center;
+    gap: 5px;
+  }
+
+  .skills-container1 {
+    padding: 20px;
+  }
+
+  .ft-1, .ft-2 {
+    text-align: center;
+  }
+
+  .titleA {
+    font-size: 1.5rem;
+  }
+
+  .at {
+    font-size: 0.875rem;
+  }
+
+  .btn-primary1 {
+    padding: 8px;
+    font-size: 0.75rem;
+  }
+}
